@@ -8,7 +8,7 @@ body {
     position: relative;
 }
 
-#home-section {
+div.cover-v1 jarallax {
     background-size: cover;
 }
 
