@@ -8,6 +8,10 @@ body {
     position: relative;
 }
 
+#home-section {
+    background-size: cover;
+}
+
 body:before {
     content: "";
     position: absolute;
