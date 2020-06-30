@@ -16,8 +16,7 @@ body {
 }
 
 #home-section {
-    background-size: cover;
-    background-image: url('images/Mcover_bg_2.jpg');
+    background-color: blue;
 }
 
 body:before {
