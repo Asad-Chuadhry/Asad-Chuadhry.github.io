@@ -8,8 +8,16 @@ body {
     position: relative;
 }
 
-div.cover-v1 jarallax {
+@media screen and (min-width: 100px) and (max-width: 480px) {
+    #home-section {
+        background-size: cover;
+        background-image: url('images/cover_bg_1.jpg');
+    }
+}
+
+#home-section {
     background-size: cover;
+    background-image: url('images/Mcover_bg_2.jpg');
 }
 
 body:before {
