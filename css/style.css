@@ -15,8 +15,10 @@ body {
     }
 }
 
-#home-section {
-    background-color: blue;
+@media screen and (min-width: 100px) and (max-width: 480px) {
+    #home-section {
+        background-color: blue;
+    }
 }
 
 body:before {
