@@ -10,8 +10,7 @@ body {
 
 @media screen and (min-width: 100px) and (max-width: 480px) {
     #home-section {
-        background-size: cover;
-        background-image: url('images/cover_bg_1.jpg');
+        background-color: white;
     }
 }
 
