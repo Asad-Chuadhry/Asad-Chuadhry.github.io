@@ -9,8 +9,22 @@ body {
 }
 
 #homesection {
-    background-size: contain;
+    background-size: cover;
     background-image: url('../images/Mcover_bg_2.jpg');
+}
+
+@media screen and (min-width: 100px) and (max-width: 480px) {
+    #homesection {
+        background-size: cover;
+        background-image: url('../images/cover_bg_2.jpg');
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    #homesection {
+        background-size: cover;
+        background-image: url('../images/cover_bg_1.jpg');
+    }
 }
 
 body:before {
